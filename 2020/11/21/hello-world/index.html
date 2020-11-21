@@ -1,189 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="null">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    
+    <title>
+        Hello World |
+        
+        Keep
+    </title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="author" content="John Doe">
-    
-    
-    
-    
-    
-    
-    <title>Hello World | Hexo</title>
-    <link href="http://yoursite.com" rel="prefetch" />
-
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-<link rel="stylesheet" href="/css/aos.css">
-<link rel="stylesheet" href="/css/style.css">
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/aos.js"></script>
-    <script src="/js/highslide/highslide-full.min.js"></script>
-    <link rel="stylesheet" href="/js/highslide/highslide.css">
-    <style type="text/css">
-        @media (max-width: 768px) {
-            body {
-                background-color: #f0f0f0;
-                background: url('/imgs/xsbg.gif');
-                background-attachment: fixed;
-            }
-        }
-    </style>
-    
-    <!--<script type="text/javascript">
-      if (document.images) {
-        var avatar = new Image();
-        avatar.src = '/imgs/avatar.jpg'
-        var previews = 'preview1.jpg,preview2.jpg,preview3.jpg,preview4.jpg'.split(',')
-        var previewsPreLoad = []
-        for(var i = 0; i < length; i++) {
-          previewsPreLoad.push(new Image())
-          previewsPreLoad[previewsPreLoad.length - 1].src = '/imgs/preview' + previews[i]
-        }
-      }
-    </script>-->
+    <link rel="shortcut icon" href="/images/logo.svg">
+    <link rel="stylesheet" href="/css/style.css">
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {};
+    let CONFIG = {"hostname":"yoursite.com","root":"/","localsearch":{"enable":false,"trigger":"auto","unescape":false,"preload":false},"toc":{"enable":false,"number":true,"expand_all":true},"back2top":{"enable":true},"side_tools":{"enable":false},"style":{"primary_color":"#0066CC","img_position":"left","left_side_width":"260px","hover":{"shadow":true,"scale":false},"first_screen":{"enable":true,"description":"Welcome to use Hexo theme Keep"}}};
+  </script>
 </head>
+
+
 <body>
-    <!-- 背景轮播图功能 -->
-    <section class="hidden-xs">
-    <ul class="cb-slideshow">
-        <li><span>天若</span></li>
-        <li><span>有情</span></li>
-        <li><span>天亦老</span></li>
-        <li><span>我为</span></li>
-        <li><span>长者</span></li>
-        <li><span>续一秒</span></li>
-    </ul>
-</section>
-    <!-- 欧尼酱功能, 谁用谁知道 -->
+<div class="page-container">
+
     
-    <header class="navbar navbar-inverse" id="gal-header">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed"
-                    data-toggle="collapse" data-target=".bs-navbar-collapse"
-                    aria-expanded="false">
-                <span class="fa fa-lg fa-reorder"></span>
-            </button>
-            <a href="http://yoursite.com">
-                
-                <style>
-                    #gal-header .navbar-brand {
-                        height: 54px;
-                        line-height: 24px;
-                        font-size: 28px;
-                        opacity: 1;
-                        background-color: rgba(0,0,0,0);
-                        text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #228DFF,0 0 35px #228DFF,0 0 40px #228DFF,0 0 50px #228DFF,0 0 75px #228DFF;
-                    }
-                </style>
-                <!-- 这里使用文字(navbar_text or config.title) -->
-                <div class="navbar-brand">Hexo</div>
-                
-            </a>
-        </div>
-        <div class="collapse navbar-collapse bs-navbar-collapse">
-            <ul class="nav navbar-nav" id="menu-gal">
-                
-                
-                <li class="">
-                    <a href="/">
-                        <i class="fa fa-home"></i>首页
+
+    <header class="page-header">
+        <div class="header-progress"></div>
+    </header>
+
+    <main class="page-main">
+
+        <div class="page-main-content">
+
+            <div class="page-main-content-top">
+                <header class="header-wrapper">
+
+    <div class="header-content"
+    >
+        <a class="logo-title" href="/">
+            Keep
+        </a>
+
+        <ul class="menu-list">
+            
+                <li class="menu-item">
+                    <a class=""
+                       href="/"
+                    >
+                        首页
                     </a>
                 </li>
-                
-                
-                
-                <li class="">
-                    <a href="/archives">
-                        <i class="fa fa-archive"></i>归档
+            
+                <li class="menu-item">
+                    <a class=""
+                       href="/archives"
+                    >
+                        归档
                     </a>
                 </li>
-                
-                
-                
-                
-                <li class="">
-                    <a href="/categories">
-                        <i class="fa fa-list"></i>分类
-                    </a>
-                </li>
-                
-                
-                
-                
-                
-                <li class="">
-                    <a href="/tags">
-                        <i class="fa fa-tags"></i>标签
-                    </a>
-                </li>
-                
-                
-                
-                
-                <li class="">
-                    <a href="/about">
-                        <i class="fa fa-user"></i>关于我
-                    </a>
-                </li>
-                
-                
-            </ul>
+            
+        </ul>
+
+        <div class="menu-bar">
+            <div class="menu-bar-middle"></div>
         </div>
     </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item">
+                    <a class=""
+                       href="/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item">
+                    <a class=""
+                       href="/archives">归档</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
 </header>
-    <div id="gal-body">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 gal-right" id="mainstay">
-                    
-<article class="article well article-body" id="article">
-    <div class="breadcrumb">
-        <i class="fa fa-home"></i>
-        <a href="http://yoursite.com">Hexo</a>
-        >
-        <span>Hello World</span>
-    </div>
-    <!-- 大型设备详细文章 -->
-    <div class="hidden-xs">
-        <div class="title-article">
-            <h1>
-                <a href="/2020/11/21/hello-world/">Hello World</a>
-            </h1>
-        </div>
-        <div class="tag-article">
-            
-            <span class="label label-gal">
-                <i class="fa fa-calendar"></i> 2020-11-21
-            </span>
-            
-        </div>
-    </div>
-    <!-- 小型设备详细文章 -->
-    <div class="visible-xs">
-        <center>
-            <div class="title-article">
-                <h4>
-                    <a href="/2020/11/21/hello-world/">Hello World</a>
-                </h4>
+
+
             </div>
-            <p>
-                <i class="fa fa-calendar"></i> 2020-11-21
-            </p>
-            <p>
-                
-                
-            </p>
-        </center>
-    </div>
-    <div class="content-article">
-        <p><img src="https://portablehexo.bitmoe.cn/hexopp/hexop.png" alt=""></p>
+
+            <div class="page-main-content-middle">
+
+                <main class="main-content normal-code-theme">
+
+                    
+                        <div class="fade-in-down-animation">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            <span class="title-hover-animation">Hello World</span>
+        </div>
+
+        
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="/images/avatar.png">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span>Keep team</span>
+                        <span class="level">Lv1</span>
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa fa-calendar-o"></i> 2020-11-21 10:14:00
+    </span>
+    
+    
+
+    
+    
+    
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <p><img src="https://portablehexo.bitmoe.cn/hexopp/hexop.png" alt=""></p>
 <blockquote>
 <p><strong>本版本仅适用于Win环境</strong><br>本文关键字： <strong>Hexo绿色版</strong>，<strong>Hexo便携版</strong>，<strong>Hexo配置</strong>，<strong>Hexo</strong>，<strong>U盘</strong></p>
 </blockquote>
-<p><a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>是一个快速、简洁且高效的博客框架，支持 GitHub Flavored Markdown 的所有功能；具有超快生成速度，让上百个页面在几秒内瞬间完成渲染；还拥有各式各样的插件等等。</p>
+<p><a class="link" href="https://hexo.io/" target="_blank" rel="external">Hexo<i class="fa fa-external-link"></i></a>是一个快速、简洁且高效的博客框架，支持 GitHub Flavored Markdown 的所有功能；具有超快生成速度，让上百个页面在几秒内瞬间完成渲染；还拥有各式各样的插件等等。</p>
 <p>但是就像很多教程里面写的那样，搭建 Hexo 本地环境，需要安装 Node.js、Git 以及使用 npm 进行安装和配置。这对于毫无经验的新手来说，是一个很大的挑战。同时，由于这些环境的存在，导致如果需要更换计算机的时候，重新安装配置一个新的Hexo环境，又得花费一些功夫。</p>
 <p>所以呢，锵锵，我们整合了一个 Hexo 便携版，来简化本地环境的部署。</p>
 <p>####<strong>版本介绍</strong><br>那么所谓的便携版到底是什么？便携版就是将 Hexo 本地环境所需要的各种依赖环境的整合到一起，做成的不需要安装的版本。</p>
@@ -199,7 +150,7 @@
 <p>为了便携的需要，不能配置固定的环境变量，所以除此之外还有相应的批处理文件，下文将详细介绍。</p>
 <p>####<strong>从零开始，1分钟搭建Hexo写作环境</strong><br>说了这么多，我们这就开始教你如何在1分钟内，从零开始搭建Hexo写作环境！</p>
 <p>#####1 注册一个Github帐号</p>
-<p>1.1 进入<a href="https://github.com" target="_blank" rel="external">Github</a>，并在右边的3个框框中分别填写 用户名、邮箱地址、账户密码，并点击 <strong><code>Sign up for Github</code></strong>;</p>
+<p>1.1 进入<a class="link" href="https://github.com" target="_blank" rel="external">Github<i class="fa fa-external-link"></i></a>，并在右边的3个框框中分别填写 用户名、邮箱地址、账户密码，并点击 <strong><code>Sign up for Github</code></strong>;</p>
 <p><img src="https://portablehexo.bitmoe.cn/hexopp/hexop2.png" alt="图1.1.1"></p>
 <p>1.2 进入欢迎页面后，点击<strong><code>Finish sign up</code></strong>;</p>
 <p><img src="https://portablehexo.bitmoe.cn/hexopp/hexop3.png" alt="图1.2.1"></p>
@@ -211,7 +162,7 @@
 <p><img src="https://portablehexo.bitmoe.cn/hexopp/hexop8.png" alt="图1.4.1"></p>
 <p>1.5 至此，Github网页注册的部分完毕</p>
 <p>####2 下载HEXO Portable</p>
-<p>2.1 访问我们的 <a href="https://project.bitmoe.cn/PortableHexo/" target="_blank" rel="external">HEXO Portable</a> 页面，或者 <a href="https://github.com/Bitmoe/PortableHexo" target="_blank" rel="external">Github仓库</a> 下载最新的便携版；</p>
+<p>2.1 访问我们的 <a class="link" href="https://project.bitmoe.cn/PortableHexo/" target="_blank" rel="external">HEXO Portable<i class="fa fa-external-link"></i></a> 页面，或者 <a class="link" href="https://github.com/Bitmoe/PortableHexo" target="_blank" rel="external">Github仓库<i class="fa fa-external-link"></i></a> 下载最新的便携版；</p>
 <p>2.2 双击得到的自解压文件，解压到你需要安装博客的地方，可以选择硬盘或者U盘；</p>
 <p>####3 配置你的环境</p>
 <p>3.1 在你的博客的文件夹，你会发现很多批处理文件，我先介绍下各个文件的用途：</p>
@@ -245,241 +196,135 @@
 </blockquote>
 <p>3.4 输入完毕之后，会进行测试部署，等待屏幕提示<strong>下面将进行部署测试，稍后将有一个openssh的对话框出现，请输入你的github用户密码。</strong>的时候，按回车继续；（此处的用户密码为<strong>步骤1.1</strong>中填写的用户密码）</p>
 <p>3.5 然后继续等待，此时屏幕会出现n多行，耐心等待即可；</p>
-<p>3.6 等待屏幕提示<strong>请访问 <a href="https://用户名.github.io" target="_blank" rel="external">https://用户名.github.io</a> 查看是否部署成功！</strong>的时候，在浏览器中输入<strong><a href="https://用户名.github.io" target="_blank" rel="external">https://用户名.github.io</a> </strong>，理论上可以看到你的Hexo站点！（此处的用户名为<strong>步骤1.1</strong>中填写的用户名）</p>
+<p>3.6 等待屏幕提示<strong>请访问 <a class="link" href="https://用户名.github.io" target="_blank" rel="external">https://用户名.github.io<i class="fa fa-external-link"></i></a> 查看是否部署成功！</strong>的时候，在浏览器中输入<strong><a class="link" href="https://用户名.github.io" target="_blank" rel="external">https://用户名.github.io<i class="fa fa-external-link"></i></a> </strong>，理论上可以看到你的Hexo站点！（此处的用户名为<strong>步骤1.1</strong>中填写的用户名）</p>
 <p>3.7 至此，你的Hexo环境就配置完成了，这样你的这个Hexo博客文件夹无论移动到哪一台电脑，都能通过<strong>启动命令行</strong>出现的bash命令行，或者其余便捷的批处理文件比如<strong>新建文章</strong>、<strong>渲染并本地测试</strong>、<strong>渲染并部署</strong>进行相应的操作。</p>
 <p>3.8 如果你在配置中出错，可以运行<strong>重置配置文件</strong>后，再重复<strong>3.1~3.6步骤</strong></p>
 <p>####4 开始享受纯粹的Hexo写作吧！</p>
 <p>####5 备注</p>
 <blockquote>
 <ul>
-<li>本便携版以及本文均使用 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="external">CC BY-NC-SA 4.0</a>协议；</li>
-<li>本文所有权归 <a href="http://qistchan.com" target="_blank" rel="external">QistChan</a> &amp; <a href="https://wwww.bitmoe.com" target="_blank" rel="external">Bitmoe Inc.</a> 所有；</li>
-<li>本便携版由 <a href="https://www.bitmoe.com" target="_blank" rel="external">Bitmoe Inc.</a> 维护并提供技术支持；</li>
-<li>需要技术支持可以在<a href="https://github.com/Bitmoe/PortableHexo" target="_blank" rel="external">Github仓库</a> 提交<strong><code>Issues</code></strong>；</li>
-<li>Written with <a href="https://stackedit.io/" target="_blank" rel="external">StackEdit</a>.</li>
+<li>本便携版以及本文均使用 <a class="link" href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="external">CC BY-NC-SA 4.0<i class="fa fa-external-link"></i></a>协议；</li>
+<li>本文所有权归 <a class="link" href="http://qistchan.com" target="_blank" rel="external">QistChan<i class="fa fa-external-link"></i></a> &amp; <a class="link" href="https://wwww.bitmoe.com" target="_blank" rel="external">Bitmoe Inc.<i class="fa fa-external-link"></i></a> 所有；</li>
+<li>本便携版由 <a class="link" href="https://www.bitmoe.com" target="_blank" rel="external">Bitmoe Inc.<i class="fa fa-external-link"></i></a> 维护并提供技术支持；</li>
+<li>需要技术支持可以在<a class="link" href="https://github.com/Bitmoe/PortableHexo" target="_blank" rel="external">Github仓库<i class="fa fa-external-link"></i></a> 提交<strong><code>Issues</code></strong>；</li>
+<li>Written with <a class="link" href="https://stackedit.io/" target="_blank" rel="external">StackEdit<i class="fa fa-external-link"></i></a>.</li>
 </ul>
 </blockquote>
 
-    </div>
-</article>
+        </div>
 
+        
+            <div class="post-copyright-info">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li>本文标题：Hello World</li>
+        <li>本文作者：Keep team</li>
+        <li>创建时间：2020-11-21 10:14:00</li>
+        <li>
+            本文链接：https://keep.xpoet.cn/2020/11/21/hello-world/
+        </li>
+        <li>
+            版权声明：本博客所有文章除特别声明外，均采用 <a class="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！
+        </li>
+    </ul>
+</div>
 
-                </div>
-                <aside class="col-md-4 gal-left" id="sidebar">
-    <!-- 此为sidebar的搜索框, 非搜索结果页面 -->
-<aside id="sidebar-search">
-    <div class="search hidden-xs" data-aos="fade-up" data-aos-duration="2000">
-        <form class="form-inline clearfix" id="search-form" method="get"
-              action="/search/index.html">
-            <input type="text" name="s" class="form-control" id="searchInput" placeholder="搜索文章~" autocomplete="off">
-            <button class="btn btn-danger btn-gal" type="submit">
-                <i class="fa fa-search"></i>
-            </button>
-        </form>
-    </div>
-</aside>
-    <aside id="sidebar-author">
-    <div class="panel panel-gal" data-aos="flip-right" data-aos-duration="3000">
-        <div class="panel-heading" style="text-align: center">
-            <i class="fa fa-quote-left"></i>
-            John Doe
-            <i class="fa fa-quote-right"></i>
-        </div>
-        <div class="author-panel text-center">
-            <img src="/imgs/avatar.jpg" width="140" height="140"
-                 alt="个人头像" class="author-image">
-            <p class="author-description"></p>
-        </div>
-    </div>
-</aside>
-    
-    <aside id="sidebar-recent_comments">
-    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
-        <div class="panel-heading">
-            <i class="fa fa-comments"></i>
-            最新评论
-            <i class="fa fa-times-circle panel-remove"></i>
-            <i class="fa fa-chevron-circle-up panel-toggle"></i>
-        </div>
-        <ul class="list-group list-group-flush"></ul>
-    </div>
-</aside>
-    
-    <!-- 要配置好leancloud才能开启此小工具 -->
-    
-    
-    <aside id="sidebar-recent_posts">
-    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
-        <div class="panel-heading">
-            <i class="fa fa-refresh"></i>
-            近期文章
-            <i class="fa fa-times-circle panel-remove"></i>
-            <i class="fa fa-chevron-circle-up panel-toggle"></i>
-        </div>
-        <ul class="list-group list-group-flush">
-            
-            <li class="list-group-item">
-                <span class="post-title">
-                    <a href="/2020/11/21/hello-world/">Hello World</a>
-                </span>
-            </li>
-            
-        </ul>
-    </div>
-</aside>
-    
-    
-    <aside id="sidebar-rand_posts">
-    <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
-        <div class="panel-heading">
-            <i class="fa fa-refresh"></i>
-            随机文章
-            <i class="fa fa-times-circle panel-remove"></i>
-            <i class="fa fa-chevron-circle-up panel-toggle"></i>
-        </div>
-        <ul class="list-group list-group-flush">
-            
-            
-            <li class="list-group-item">
-                <span class="post-title">
-                    <a href="/2020/11/21/hello-world/">Hello World</a>
-                </span>
-            </li>
-            
-        </ul>
-    </div>
-</aside>
-    
-    
-    <aside id="gal-sets">
-        <div class="panel panel-gal hidden-xs" data-aos="fade-up" data-aos-duration="2000">
-            <ul class="nav nav-pills pills-gal">
-
-                
-                <li>
-                    <a href="/2020/11/21/hello-world/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
-                </li>
-                
-                
-                <li>
-                    <a href="/2020/11/21/hello-world/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
-                </li>
-                
-                
-                <li>
-                    <a href="/2020/11/21/hello-world/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
-                </li>
-                
-            </ul>
-            <div class="tab-content">
-                
-                <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
-    
-</div>
-                
-                
-                <div class="friend-links tab-pane nav bs-sidenav fade" id="sidebar-friend-links">
-    
-    <li>
-        <a href="http://kdays.net/days/" target="_blank">KDays Forum</a>
-    </li>
-    
-    <li>
-        <a href="http://www.gal123.com/" target="_blank">绅士导航♂</a>
-    </li>
-    
-    <li>
-        <a href="http://www.moe123.com/" target="_blank">萌导航</a>
-    </li>
-    
-</div>
-                
-                
-                <div class="links tab-pane nav bs-sidenav fade" id="sidebar-links">
-    
-    <li>
-        <a href="https://github.com/ZEROKISEKI/" target="_blank">Github</a>
-    </li>
-    
-    <li>
-        <a href="https://coding.net/u/SORA1" target="_blank">Coding</a>
-    </li>
-    
-    <li>
-        <a href="https://www.zhihu.com/people/aonosora/activities" target="_blank">知乎</a>
-    </li>
-    
-</div>
-                
             </div>
-        </div>
-    </aside>
-    
-</aside>
-            </div>
-        </div>
+        
+
+        
+
+        
     </div>
-    <footer id="gal-footer">
-    <div class="container">
-        Copyright © 2018 John Doe Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>.&nbsp;Theme by <a href="https://github.com/ZEROKISEKI" target="_blank">AONOSORA</a>
+</div>
+
+
+                    
+                </main>
+
+            </div>
+
+            <div class="page-main-content-bottom">
+                <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+              <span>2020</span> ~
+            
+            2020 <i class="fa fa-heart"></i> <a href="/">Keep team</a>
+        </div>
+        
+        <div class="theme-info info-item">
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动 | 主题 <a class="theme-version" target="_blank"></a>
+        </div>
     </div>
 </footer>
 
-<!-- 回到顶端 -->
-<div id="gal-gotop">
-    <i class="fa fa-angle-up"></i>
+            </div>
+        </div>
+    </main>
+
+    <div class="sidebar-tools">
+        <div class="tools-container">
+    <ul class="tools-list">
+        
+
+        
+
+        <!-- TOC aside toggle -->
+        
+
+    </ul>
 </div>
+
+    </div>
+
+    <!-- side tools -->
+    
+
+    <!-- page aside -->
+    <aside class="page-aside">
+        
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        
+    </div>
+</div>
+        
+    </aside>
+
+    <!-- image viewer -->
+    <div class="image-viewer-container">
+    <div class="img-box">
+        <img src="">
+    </div>
+</div>
+
+
+</div>
+
+
+
+
+<script src="/js/utils.js"></script>
+<script src="/js/header-shrink.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+
+    <script src="/js/left-side-toggle.js"></script>
+
+    
+        <script src="/js/code-copy.js"></script>
+    
+
+    
+
+
 </body>
-<script src="/js/activate-power-mode.js"></script>
-<script>
-
-    // 配置highslide
-	hs.graphicsDir = '/js/highslide/graphics/'
-    hs.outlineType = "rounded-white";
-    hs.dimmingOpacity = 0.8;
-    hs.outlineWhileAnimating = true;
-    hs.showCredits = false;
-    hs.captionEval = "this.thumb.alt";
-    hs.numberPosition = "caption";
-    hs.align = "center";
-    hs.transitions = ["expand", "crossfade"];
-    hs.lang.number = '共%2张图, 当前是第%1张';
-    hs.addSlideshow({
-      interval: 5000,
-      repeat: true,
-      useControls: true,
-      fixedControls: "fit",
-      overlayOptions: {
-        opacity: 0.75,
-        position: "bottom center",
-        hideOnMouseOut: true
-      }
-    })
-
-    // 初始化aos
-    AOS.init({
-      duration: 1000,
-      delay: 0,
-      easing: 'ease-out-back'
-    });
-
-</script>
-<script>
-	POWERMODE.colorful = 'true';    // make power mode colorful
-	POWERMODE.shake = 'true';       // turn off shake
-	// TODO 这里根据具体情况修改
-	document.body.addEventListener('input', POWERMODE);
-</script>
-<script>
-    window.slideConfig = {
-      prefix: '/imgs/slide/background',
-      ext: 'jpg',
-      maxCount: '6'
-    }
-</script>
-<script src="/js/hs.js"></script>
-<script src="/js/blog.js"></script>
-
-
-
 </html>
