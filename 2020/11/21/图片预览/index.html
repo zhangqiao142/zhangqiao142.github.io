@@ -174,6 +174,62 @@
         
 
         
+            <div class="comment-container">
+                <div class="comments-container">
+    <div id="comment-anchor"></div>
+    
+        
+    <div class="valine-container">
+        <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+        <div id="vcomments"></div>
+        <script>
+            new Valine({
+                el: '#vcomments',
+                appId: 'sPy4KQjYJdmGmi7ver0ry86f-gzGzoHsz',
+                appKey: 'YHYAWV0XnzOgs0hENme52Qos',
+                meta: 'nick,mail,link'.split(','),
+                avatar: 'wavatar',
+                enableQQ: true,
+                placeholder: '想说什么说什么',
+                lang: 'null'.toLowerCase()
+            });
+
+
+            // Valine 评论列表增加"博主"标识
+            const getValineDomTimer = setInterval(() => {
+                const vcards = document.querySelectorAll('#vcomments .vcards .vcard');
+                if (vcards.length > 0) {
+
+                    let author = 'Keep team';
+                    if (author) {
+                        author = author.toLocaleLowerCase();
+                    }
+
+                    let email = 'undefined';
+                    if (email) {
+                        email = email.toLocaleLowerCase();
+                    }
+
+                    for (let vcard of vcards) {
+                        const vnick = vcard.querySelector('.vhead .vnick');
+                        if (vnick.innerHTML.toLocaleLowerCase() === author) {
+                            vcard.classList.add('author');
+                        }
+                    }
+                    clearInterval(getValineDomTimer);
+                } else {
+                    clearInterval(getValineDomTimer);
+                }
+            }, 2000);
+        </script>
+    </div>
+
+
+    
+</div>
+
+            </div>
+        
     </div>
 </div>
 
@@ -209,6 +265,10 @@
     <ul class="tools-list">
         
 
+        
+            <li class="go-comment">
+                <i class="fa fa-comment"></i>
+            </li>
         
 
         <!-- TOC aside toggle -->
